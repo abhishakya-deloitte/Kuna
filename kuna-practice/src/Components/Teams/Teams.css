@@ -1,0 +1,9 @@
+.manageTeams{
+    margin-left: 50px;
+}
+
+.teamsTabs{
+    min-width: 80rem;
+    display:flex;
+    justify-content: space-between;
+}

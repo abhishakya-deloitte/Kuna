@@ -1,17 +1,13 @@
 import React from 'react'
-import './index.css'
+import './Card.css'
 import { RightOutlined, FireFilled } from '@ant-design/icons/'
 
-const Index = () => {
+const Card = () => {
   return (
-    <div id="back-div">
+    <div id="back-div" style={{marginTop:'1%',marginBottom:'1%'}}>
       <div id="front-div">
         <div id="front-div-left">
-          <FireFilled
-            style={{
-              fontSize: "32px"
-            }}
-          />
+          <FireFilled style={{fontSize: "32px"}}/>
         </div>
         <div id="front-div-right">
           <div id="front-div-right-top">
@@ -41,4 +37,4 @@ const Index = () => {
 }
 
 
-export default Index;
+export default Card;

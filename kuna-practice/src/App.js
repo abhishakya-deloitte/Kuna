@@ -1,10 +1,10 @@
 import './App.css';
-import BannerButton from './Components/BannerButton/index'
+import Login from './Components/Login/Login';
 
 function App() {
   return (
     <div className="App">
-      <BannerButton/>
+      <Login/>
     </div>
   );
 }
