@@ -1,17 +1,21 @@
 #back-div {
     display: flex;
-    margin: 60px;
+    margin: 40px;
     height: 110px;
-    width: 560px;
+    width: 450px;
     background-color: rgb(41, 174, 41);
     border-radius: 20px;
+}
+
+#back-div:hover{
+    box-shadow: 5px 10px antiquewhite;
 }
 
 #front-div {
     display: flex;
     left: 0;
     height: 110px;
-    width: 470px;
+    width: 360px;
     background-color: rgb(17, 107, 17);
     border-radius: 20px;
     border-top-right-radius: 15%55px;
@@ -23,7 +27,7 @@
     justify-content: center;
     align-items: center;
     background-color: white;
-    width: 17%;
+    width: 20%;
     margin: 4%;
     border-radius: 13px;
 }
@@ -101,3 +105,4 @@
     border-radius: 50%;
     background-color: white;
 }
+
