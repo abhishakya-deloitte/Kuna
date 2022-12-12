@@ -1,0 +1,67 @@
+.Nav-Bar{
+
+display: flex;
+width:100%;
+height:4rem;
+box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+
+}
+.FirstImage{
+    left:1%;
+    height:3.75rem;
+   
+position: absolute;
+width: 3.75rem;
+}
+.Heading-Navbar{
+    position: absolute;
+width: 99px;
+height: 24px;
+left: 5%;
+top: 1.1rem;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight:bold;
+font-size: 1.3rem;
+line-height: 24px;
+
+color: #080808;
+
+}
+.Bell-Icon{
+      margin-left: 98%;  
+    margin-top: 1.1rem;
+    font-size:1.3rem;
+}
+.UserName{
+    left: 1%;
+    margin-right: 0px;
+    margin-top: 1.1rem;
+    font-family: 'Inter';
+font-style: normal;
+font-weight:bold;
+font-size: 1.3rem;
+line-height: 24px;
+
+color: #080808;
+
+}
+.UserAvatar{
+    margin-right: 10%;
+    margin-top: 0.8rem;
+    position: relative;
+    width: 40px;
+    height: 40px;
+}
+.box1{
+   
+    width: 90%;
+
+}
+.box2{
+    width: 10%;
+    display: flex;
+    
+    justify-content: space-between;
+}

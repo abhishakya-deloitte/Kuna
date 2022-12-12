@@ -2,7 +2,7 @@ import React from 'react'
 import './Teams.css'
 import { Typography } from 'antd'
 import { Steps,Button } from 'antd';
-import TeamCard from './TeamCard/TeamCard'
+import TeamCard from '../ReusableComponents/TeamCard/TeamCard'
 const { Step } = Steps;
 const { Title } = Typography;
 
@@ -22,7 +22,7 @@ export default function Teams() {
         </div>
         <Button size={'large'} style={{backgroundColor:'#6D8C32',width:'10rem',color:'white',height:'3rem'}}>Create Team</Button>
       </div>
-      <div className='teamsList' style={{display:'flex',marginTop:'5%'}}>
+      <div className='teamsList' style={{display:'flex',marginTop:'5%',width:'100%'}}>
         <TeamCard/>
         <TeamCard/>
         <TeamCard/>
