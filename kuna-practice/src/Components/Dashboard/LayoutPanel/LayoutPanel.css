@@ -3,6 +3,7 @@
     min-height:53rem !important;
     background-color: #6D8C32;
 }
+
 .ant-menu-item-selected{
     background-color: rgb(179, 245, 161) !important;
 }

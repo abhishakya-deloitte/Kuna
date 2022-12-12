@@ -2,7 +2,7 @@ import React from 'react'
 import './Card.css'
 import { RightOutlined, FireFilled } from '@ant-design/icons/'
 
-const Card = () => {
+const Card = (props) => {
   return (
     <div id="back-div" style={{marginTop:'1%',marginBottom:'1%'}}>
       <div id="front-div">
@@ -11,10 +11,10 @@ const Card = () => {
         </div>
         <div id="front-div-right">
           <div id="front-div-right-top">
-              <span id="activity-text">Sports</span>
+              <span id="activity-text">{props.details.class}</span>
           </div>
           <div id="front-div-right-bottom">
-            <span id="task-text">Running</span>
+            <span id="task-text">{props.details.category}</span>
           </div>
         </div>
       </div>
