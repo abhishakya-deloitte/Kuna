@@ -1,0 +1,71 @@
+.teams-1{
+    border: 2px;
+    border-style: solid;
+   height: 100%;
+    
+}
+.heading-teams{
+    /* width: 27rem;
+height: 4.5rem; */
+margin-left: 5rem;
+margin-top: 5rem;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+/* identical to box height */
+
+
+/* Black */
+
+color: #080808;
+}
+.box-1{
+    display: flex;
+
+flex-direction: column;
+text-align: center;
+padding: 0px 16px;
+gap: 8px;
+
+width: 4.5rem;
+height: 2.5rem;
+
+
+/* Neutral / Neutral 0 */
+
+background: #FFFFFF;
+/* Neutral/Neutral 8 */
+
+border: 1px solid #4F575E;
+border-radius: 4px;
+
+}
+.box-2{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px 16px;
+gap: 8px;
+
+width: 6.8rem;
+height: 2.5rem;
+
+background: #6D8C32;
+border: 1px solid #6D8C32;
+border-radius: 4px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.box-text{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+margin-top: 0.7rem;
+
+}

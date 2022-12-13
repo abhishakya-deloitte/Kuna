@@ -1,0 +1,11 @@
+.Side-Panel{
+    display: flex;
+    justify-content: space-between;
+
+height:100%;
+
+/* border: 2px;
+border-style: solid;
+border-color: aqua; */
+background: #6D8C32;
+}

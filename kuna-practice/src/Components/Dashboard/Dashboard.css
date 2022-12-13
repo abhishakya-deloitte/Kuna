@@ -1,0 +1,73 @@
+.dashboard_Box1{
+width: 50%;
+background-color: black;
+}
+.dashboard_Box2{
+    width: 50%;
+    }
+.dashboard-top-box{
+display: flex;
+/* width: 94.3vw; */
+height: 30vh;
+border: 2px;
+border-style: solid;
+border-color: blue;
+
+}
+.dashboard-middle-box{
+   
+    /* border: 2px;
+    border-style: solid;
+    border-color:black; */
+height: 35vh;  
+justify-content: space-between;  
+}
+.dashboard-last-box{
+
+    border: 2px;
+    border-style: solid;
+    border-color:black;
+    height:20vh,
+}
+.event-box{
+    height:100%;
+}
+.inside-event{
+
+    border: 2px;
+    border-style: solid;
+    border-color:black;
+    border-radius: 24px;
+    height:auto;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.event_card_1{
+    border: 2px;
+    border-style: solid;
+    border-color:black;
+    border-radius: 24px;
+    width: 12vw;
+    height: 10vh;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.main-text{
+
+/* width: 644px;
+height: 146px;
+left: 135px;
+top: 186px; */
+margin-left: 1.5vw;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 73px;
+
+/* White */
+
+color: #FFFFFF;
+}
