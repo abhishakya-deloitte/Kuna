@@ -6,8 +6,8 @@ import Home from '../Home/Home'
 import Teams from '../Teams/Teams'
 import Challenges from '../Challenges/Challenges'
 import Rewards from '../Rewards/Rewards'
-import Live from '../Live/Live'
-import HappyHours from '../HappyHours/HappyHours'
+import Live from '../Events/Events'
+import Leaderboard from '../Leaderboard/Leaderboard'
 import Navbar from './Header/Navbar'
 
 export default function Dashboard() {
@@ -22,8 +22,8 @@ export default function Dashboard() {
             <Route path='/manageteams' element={<Teams/>}/>
             <Route path='/challenges' element={<Challenges/>}/>
             <Route path='/rewards' element={<Rewards />} />
-            <Route path='/live' element={<Live />} />
-            <Route path='/happyhours' element={<HappyHours />} />
+            <Route path='/events' element={<Live />} />
+            <Route path='/leaderboard' element={<Leaderboard />} />
           </Routes>
         </div>
       </BrowserRouter>

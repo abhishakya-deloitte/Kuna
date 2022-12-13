@@ -2,6 +2,8 @@ import React from 'react'
 
 export default function Live() {
   return (
-    <div>Live</div>
+    <div>
+      <h1>Events</h1>
+    </div>
   )
 }

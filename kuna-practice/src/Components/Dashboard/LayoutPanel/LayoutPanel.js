@@ -1,4 +1,4 @@
-import { BulbOutlined, HomeOutlined, TrophyOutlined, VideoCameraOutlined, HourglassOutlined, TeamOutlined } from '@ant-design/icons';
+import { BulbOutlined, HomeOutlined, TrophyOutlined, HourglassOutlined, TeamOutlined, TableOutlined } from '@ant-design/icons';
 import { Menu } from 'antd';
 import "./LayoutPanel.css"
 import { useNavigate } from 'react-router-dom';
@@ -28,17 +28,17 @@ const App = () => {
                        <div style={{display:'flex',flexDirection:'column'}}>
                          <BulbOutlined className='icon' style={{ fontSize: '25px'}} /><div className='option'>Challenges</div></div>
                     </Menu.Item>
-                    <Menu.Item key='4' title='rewards' style={{ height: '100px', color: 'white' }} onClick={(e)=>navigate('/rewards')}>
+                    <Menu.Item key='4' title='happy hours' style={{ height: '100px', color: 'white' }} onClick={(e)=>navigate('/events')}>
+                       <div style={{display:'flex',flexDirection:'column'}}>
+                         <HourglassOutlined className='icon' style={{ fontSize: '25px'}} /><div className='option'>Events</div></div>
+                    </Menu.Item>
+                    <Menu.Item key='5' title='leaderboard' style={{ height: '100px', color: 'white' }} onClick={(e)=>navigate('/leaderboard')}>
+                       <div style={{display:'flex',flexDirection:'column'}}>
+                         <TableOutlined className='icon' style={{ fontSize: '25px'}} /><div className='option'>Leaderboard</div></div>
+                    </Menu.Item>
+                    <Menu.Item key='6' title='rewards' style={{ height: '100px', color: 'white' }} onClick={(e)=>navigate('/rewards')}>
                        <div style={{display:'flex',flexDirection:'column'}}>
                          <TrophyOutlined className='icon' style={{ fontSize: '25px'}} /><div className='option'>Rewards</div></div>
-                    </Menu.Item>
-                    <Menu.Item key='5' title='live' style={{ height: '100px', color: 'white' }} onClick={(e)=>navigate('/live')}>
-                       <div style={{display:'flex',flexDirection:'column'}}>
-                         <VideoCameraOutlined className='icon' style={{ fontSize: '25px'}} /><div className='option'>Live</div></div>
-                    </Menu.Item>
-                    <Menu.Item key='6' title='happy hours' style={{ height: '100px', color: 'white' }} onClick={(e)=>navigate('/happyhours')}>
-                       <div style={{display:'flex',flexDirection:'column'}}>
-                         <HourglassOutlined className='icon' style={{ fontSize: '25px'}} /><div className='option'>Happy Hours</div></div>
                     </Menu.Item>
 
                     {/* <Menu.Item key='2' title='Challenges' style={{ height: '100px' }} icon={<BulbOutlined style={{ fontSize: '22px' }} />}><h3>Challenges</h3></Menu.Item>
