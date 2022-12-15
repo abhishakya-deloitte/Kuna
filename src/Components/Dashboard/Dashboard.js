@@ -9,6 +9,7 @@ import Rewards from '../Rewards/Rewards'
 import Live from '../Events/Events'
 import Leaderboard from '../Leaderboard/Leaderboard'
 import Navbar from './Header/Navbar'
+import CreateTeam from '../Teams/CreateTeam/CreateTeam'
 
 export default function Dashboard() {
   return (
@@ -20,6 +21,7 @@ export default function Dashboard() {
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/manageteams' element={<Teams/>}/>
+            <Route path='/manageteams/createteam' element={<CreateTeam/>}/>
             <Route path='/challenges' element={<Challenges/>}/>
             <Route path='/rewards' element={<Rewards />} />
             <Route path='/events' element={<Live />} />
