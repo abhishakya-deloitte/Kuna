@@ -38,6 +38,7 @@ export default function Challenges() {
           <Card details={{ class: 'Fun', category: 'Dancing' }} />
         </div>
       </div>
+      
     </div>
   )
 }
