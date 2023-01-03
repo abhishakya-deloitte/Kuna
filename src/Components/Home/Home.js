@@ -5,6 +5,8 @@ import StatsCard from '../ReusableComponents/StatsCard/StatsCard';
 import EventCard from '../ReusableComponents/EventCard/EventCard'
 import Carousel from "../ReusableComponents/Carousel/Carousel"
 import { Typography } from 'antd';
+import CategoryCRUD from '../CategoryCRUD/CategoryCRUD';
+
 const { Title } = Typography
 
 export default function Home() {
@@ -27,6 +29,7 @@ export default function Home() {
           <StatsCard />
         </div>
       </div>
+      <CategoryCRUD/>
       <div className='events'>
         <Title level={2} style={{ display: 'flex', marginLeft: '4%',marginTop:'1%',marginBottom:'1%' }}>Events</Title>
         <div className='eventsList' style={{marginLeft:'3%'}}>
